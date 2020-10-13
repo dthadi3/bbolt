@@ -2,7 +2,9 @@ language: go
 go_import_path: go.etcd.io/bbolt
 
 sudo: false
-
+arch:
+  - AMD64
+  - ppc64le
 go:
 - 1.12
 
